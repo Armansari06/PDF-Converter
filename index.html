@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>FileTools - Free Online PDF Tools</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- =========================
+         CREATOR BAR
+    ========================== -->
+
+    <div class="creator-bar">
+
+        <span>Created by</span>
+
+        <strong>Arman Ansari</strong>
+
+        <span>•</span>
+
+        <a
+            href="https://www.instagram.com/arman_ansari06/"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+            Instagram @arman_ansari06
+        </a>
+
+    </div>
+
+
+    <!-- =========================
+         HEADER
+    ========================== -->
+
+    <header>
+
+        <div class="logo">
+            FileTools
+        </div>
+
+        <nav>
+            <a href="#">Home</a>
+            <a href="#tools">PDF Tools</a>
+            <a href="#tools">Image Tools</a>
+        </nav>
+
+    </header>
+
+
+    <!-- =========================
+         MAIN
+    ========================== -->
+
+    <main>
+
+        <!-- HERO -->
+
+        <section class="hero">
+
+            <div class="hero-badge">
+                ⚡ Fast • Free • Easy to Use
+            </div>
+
+            <h1>
+                Free Online PDF & File Tools
+            </h1>
+
+            <p>
+                Convert, merge, compress and manage your files
+                directly in your browser.
+            </p>
+
+            <div class="hero-buttons">
+
+                <button onclick="openTool('jpg-pdf')">
+                    Start Converting
+                </button>
+
+                <button
+                    class="hero-secondary"
+                    onclick="openTool('compress-pdf')"
+                >
+                    Compress PDF
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             TOOLS
+        ========================== -->
+
+        <section
+            id="tools"
+            class="tools"
+        >
+
+            <!-- JPG TO PDF -->
+
+            <div class="tool-card">
+
+                <div class="icon">
+                    🖼️
+                </div>
+
+                <h2>
+                    JPG to PDF
+                </h2>
+
+                <p>
+                    Convert JPG and PNG images into PDF files.
+                </p>
+
+                <button onclick="openTool('jpg-pdf')">
+                    Open Tool
+                </button>
+
+            </div>
+
+
+            <!-- PDF TO JPG -->
+
+            <div class="tool-card">
+
+                <div class="icon">
+                    📄
+                </div>
+
+                <h2>
+                    PDF to JPG
+                </h2>
+
+                <p>
+                    Convert PDF pages into JPG images.
+                </p>
+
+                <button onclick="openTool('pdf-jpg')">
+                    Open Tool
+                </button>
+
+            </div>
+
+
+            <!-- MERGE PDF -->
+
+            <div class="tool-card">
+
+                <div class="icon">
+                    📑
+                </div>
+
+                <h2>
+                    Merge PDF
+                </h2>
+
+                <p>
+                    Combine multiple PDF files into one.
+                </p>
+
+                <button onclick="openTool('merge-pdf')">
+                    Open Tool
+                </button>
+
+            </div>
+
+
+            <!-- COMPRESS PDF -->
+
+            <div class="tool-card">
+
+                <div class="icon">
+                    🗜️
+                </div>
+
+                <h2>
+                    Compress PDF
+                </h2>
+
+                <p>
+                    Reduce the size of your PDF files.
+                </p>
+
+                <button onclick="openTool('compress-pdf')">
+                    Open Tool
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             TOOL AREA
+        ========================== -->
+
+        <section
+            id="tool-area"
+            class="tool-area"
+        >
+
+            <h2>
+                Choose a tool above
+            </h2>
+
+            <p>
+                Your selected tool will appear here.
+            </p>
+
+        </section>
+
+    </main>
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+
+    <footer>
+
+        <p>
+            © 2026 FileTools. All rights reserved.
+        </p>
+
+    </footer>
+
+
+    <!-- =========================
+         LIBRARIES
+    ========================== -->
+
+    <!-- jsPDF -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+
+
+    <!-- PDF.js -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+
+
+    <!-- PDF-LIB -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf-lib/1.17.1/pdf-lib.min.js"></script>
+
+
+    <!-- =========================
+         OUR JAVASCRIPT
+    ========================== -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
